@@ -13,7 +13,7 @@ const TareaSchema = mongoose.Schema({
     creado: {
         type: Date,
         default: Date.now()
-    },
+    }, 
     proyecto: {
         type: mongoose.Schema.Types.ObjectId,
         ref: 'Proyecto'
